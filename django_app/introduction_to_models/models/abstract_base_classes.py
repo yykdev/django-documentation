@@ -43,7 +43,7 @@ class Teacher(CommonInfo):
 
     def __str__(self):
         return 'Class {}\'s teacher ({}, {})'.format(
-            self.class_,
+            self.cls,
             self.name,
             self.age,
         )
