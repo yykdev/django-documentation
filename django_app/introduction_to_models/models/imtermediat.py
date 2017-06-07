@@ -21,3 +21,5 @@ class TradeInfo(models.Model):
     club = models.ForeignKey(Club, on_delete=models.CASCADE)
     date_joined = models.DateField()
     date_leaved = models.DateField(null=True, blank=True)
+
+    # property로 이 TradeInfo가 현재 
